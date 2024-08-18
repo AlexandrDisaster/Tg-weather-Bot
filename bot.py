@@ -21,7 +21,7 @@ async def start(message : types.Message):
 @dp.message_handler()
 async def handle_message(message: Message):
     city = message.text
-    await message.reply(f"City: {city}")
+    
     result = main(city)
     await message.reply(result)
 
