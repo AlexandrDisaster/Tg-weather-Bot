@@ -1,1 +1,1 @@
-Edit file "confug.py" to run bot
+Edit file "config.py" to run bot
